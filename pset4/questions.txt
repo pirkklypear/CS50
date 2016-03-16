@@ -1,0 +1,28 @@
+0.  BMP:    16 million
+    GIF:    256
+    JPEG:   16 million
+    PNG:    256T (teracolors)
+1.  GIF
+2.  Lossless:   When uncompressed, will not lose any information.
+    Lossy:      Will lose some information when compressed. Usually in an image file where the missing information wont be noticed. 
+3.  JPEG
+4.  When a FAT file is deleted, a character is added to the start of the directory signifying it's deletion. The clusters are then moved to the systems list of free clusters - the actual
+    file data is not changed. 
+5.  a) Physically destroy the drive, rendering it unusable
+    b) Degauss the drive to randomize the magnetic domains—most likely rendering the drive unusable in the process
+    c) Overwrite the drive’s data so that it cannot be recovered using a free file sanitizer
+6.  STDINT.h is a header file that defines several integer types. 
+7.  We use uint8_t etc as it makes it easier to compile our programs cross-platform. 32-bits and 64-bits etc. Its basically 'standardisation'.
+8.  Byte:   1 bytes
+    WORD:   2 bytes
+    DWORD:  4 bytes
+    LONG:   4 bytes
+9.  BM
+11. bfsize = size of bitmap file in bytes. bisize = a constant, declaring size of info header.
+12. biBitCount
+13. If there is not enough space or user lacks permissions. 
+14. Read in the source of 1 element which is size sizeof(RGBTRIPLE). Only one read is needed. 
+15. 3
+16. It changes the position in an open file. In copy.c it checks for padding at the end of the scanline and, if found, skips the amount of offset (or padding) places.
+17. SEEK_CUR is an argument for fseek(). It will move the given offset from the current position as opposed to beggining (SEEK_SET) or end (SEEK_END) position.
+18. Rick Astley
